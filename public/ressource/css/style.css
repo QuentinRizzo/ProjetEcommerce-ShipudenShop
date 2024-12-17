@@ -1,0 +1,631 @@
+/* Police d'écriture */
+@import url('https://fonts.googleapis.com/css2?family=Cagliostro&family=Paytone+One&family=Peralta&display=swap');
+
+
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* NavBar */
+
+.logo,
+.logo-footer {
+  background: linear-gradient(94deg, #FFEDBA 0.49%, #FFF 88.61%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.nav-link {
+  color: black;
+}
+
+.nav-link:hover {
+  color: #FFEDBA !important;
+}
+
+.icon-nav:hover {
+  color: #FFEDBA;
+}
+
+.dropdown-menu[data-bs-popper] {
+  top: 86% !important;
+  left: 92% !important;
+  margin-top: var(--bs-dropdown-spacer) !important;
+}
+
+nav {
+  border-bottom: 2px solid rgb(168, 168, 168);
+}
+
+/* Header */
+
+
+.icon-carou {
+  color: red !important;
+}
+
+.card-body {
+  border-radius: 10px;
+  color: white;
+}
+
+
+.logo-header {
+  text-shadow: 2px 2px 2px black;
+  font-family: 'Paytone One', sans-serif;
+}
+
+.card-desc {
+  border-radius: 15px;
+}
+
+.card-header-text {
+  font-family: 'Peralta', cursive;
+  color: white;
+}
+
+/* Section */
+.bg-card-section1 {
+  width: 80%;
+  margin: auto;
+  background-color: white;
+  border: 3px solid rgb(168, 168, 168);
+  box-shadow: 1px 1px 48px black;
+  border-radius: 10px;
+}
+
+.border-card {
+  border: 3px solid rgb(168, 168, 168) !important;
+  box-shadow: 1px 1px 48px black;
+}
+
+.card-title {
+  width: 100% !important;
+}
+
+.card-box-title-index {
+  width: 70% !important;
+}
+
+.box-avis-clients {
+  width: 80%;
+  margin: auto;
+  background-color: white;
+  border: 3px solid rgb(168, 168, 168);
+  box-shadow: 1px 1px 48px black;
+  border-radius: 10px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 25px;
+}
+
+.box-presentation {
+  margin: auto;
+}
+
+.Title-h2 {
+  font-family: 'Paytone One', sans-serif;
+}
+
+.p-desc {
+  font-family: 'Peralta', cursive;
+}
+
+/* Card */
+.card {
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 10px;
+  background-color: #25292d;
+  color: white;
+  box-shadow: 0px 0px 22px black;
+}
+
+.Figurines {
+  width: 180px;
+  margin: auto;
+}
+
+.p-info {
+  font-family: 'Peralta', cursive;
+  color: white;
+}
+
+.span {
+  color: #005C09;
+}
+
+.stock {
+  color: green;
+}
+
+.rupture {
+  color: #A80000;
+}
+
+.btn-card {
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 10px;
+  background-color: #25292d;
+  color: white;
+  box-shadow: 0px 0px 22px black;
+  font-family: 'Paytone One', sans-serif;
+  height: 40px;
+}
+
+.btn-card:hover {
+  background-color: #021526ca;
+  color: white;
+}
+
+.line {
+  border-bottom: 2px solid rgb(151, 151, 151);
+}
+
+.img-card {
+  margin-bottom: 15px;
+  width: 180px;
+}
+
+.img-card:hover {
+  filter: brightness(80%);
+}
+.icon-card{
+  margin: 2 1 auto !important;
+}
+.icon-card:hover {
+  color: red !important;
+}
+
+/* Section Avis */
+.star{
+  color: white !important;
+}
+.note{
+  color: white !important;
+}
+.hover{
+  color: yellow !important;
+}
+.card-Avis {
+  height: 150px;
+}
+
+
+/* Fiche Produits */
+.img-detail {
+  width: 180px;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 10px;
+  background-color: #25292d;
+  color: white;
+  box-shadow: 0px 0px 22px black;
+  cursor: pointer;
+}
+
+.img-detail:hover {
+  filter: brightness(80%);
+}
+
+.card-desc {
+  width: 60%;
+  border-radius: 10px;
+}
+
+.btn-desc {
+  margin: auto;
+  text-align: center;
+  margin-left: 35%;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 10px;
+  background-color: #25292d;
+  color: white;
+  box-shadow: 0px 0px 22px black;
+  font-family: 'Paytone One', sans-serif;
+  color: white;
+  border-radius: 5px;
+}
+
+.btn-desc:hover {
+  background-color: #021526ca;
+  color: white;
+  border: 2px solid rgb(255, 255, 255);
+}
+
+.image-card-equipe{
+  width: 40%;
+  margin: auto;
+  border: 3px solid #757575;
+  border-radius: 10px;
+  box-shadow: 4px 5px 43px 11px #000, 0px 4px 4px 0px #757575 inset !important;
+}
+.box-detailtext {
+  border: 3px solid #757575;
+  filter: blur(60%);
+  box-shadow: 4px 5px 43px 11px #000, 0px 4px 4px 0px #757575 inset !important;
+  border-radius: 9px;
+  flex-wrap: wrap;
+  background-color: #000;
+  width: 50%;
+}
+.box-ficheProd-Deskop{
+  width: 50%;
+  margin: auto;
+}
+/* Pannier */
+.gradient-custom {
+  border: 2px solid #343a40 !important;
+  border-radius: 10px !important;
+  background-color: white !important;
+  color: white !important;
+  box-shadow: 0px 0px 22px black !important;
+  margin-bottom: 40px;
+}
+.afficher{
+  display: block;
+}
+.cacher{
+  display: none;
+}
+
+.border-pannier {
+  border: 2px solid rgb(168, 168, 168);
+  border-radius: 10px;
+}
+
+.my-4 {
+  color: rgb(255, 255, 255);
+}
+
+.btn-payer {
+  width: 30%;
+  background-color: #454546;
+  color: white;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 10px;
+}
+
+.btn-payer:hover {
+  background-color: #012443;
+  color: white;
+  border: 2px solid rgb(255, 255, 255);
+}
+
+/* Contact */
+.bg-modal {
+  background: none !important;
+  border: none !important;
+}
+.btnModalCo{
+  display: none;
+}
+.feuille-contact {
+  width: 100% !important;
+  border: 2px solid rgb(255, 255, 255) !important;
+  border-radius: 10px !important;
+  background-color: #25292d !important;
+  color: white !important;
+  box-shadow: 0px 0px 22px black !important;
+  margin-bottom: 40px;
+}
+
+.contact-wrap {
+  -webkit-box-shadow: 0 0px 20px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+.contact-wrap .col-form-label {
+  font-size: 14px;
+  color: #b3b3b3;
+  margin: 0 0 10px 0;
+  display: inline-block;
+  padding: 0;
+}
+
+.contact-wrap .form {
+  padding: 40px;
+}
+
+.contact-wrap .contact-info {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.contact-wrap .contact-info ul li {
+  margin-bottom: 15px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+
+.contact-wrap .form {
+  background: #fff;
+}
+
+.contact-wrap .form h3 {
+  color: #35477d;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.btn-form {
+  border: 0;
+  border-radius: 5px;
+  background-color: #35477d;
+  color: white;
+}
+
+.btn-form:hover {
+  background-color: #041341b1;
+}
+
+iframe {
+  height: 240px;
+  width: 100%;
+}
+
+label.error {
+  font-size: 12px;
+  color: red;
+}
+label.success {
+  font-size: 12px;
+  color: green;
+}
+/* Fin Contact */
+
+/* Inscription */
+.select-form {
+  background-color: #FFFFFF !important;
+  filter: brightness(100%);
+}
+
+/* Fin Inscription */
+
+/* Début Page profil */
+.logo-profil {
+  width: 200px !important;
+  text-align: center !important;
+  margin: auto !important;
+}
+
+/* Fin Page profil */
+
+/* Footer */
+
+select {
+  background-color: #25292d !important;
+  color: white !important;
+  filter: brightness(70%);
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  box-shadow: 0px 0px 5px black;
+  border: 1px solid rgb(255, 255, 255);
+}
+
+/* Footer */
+/* ================================================ */
+/* Début Page Boutique  */
+.btnRechercher{
+  width: 10% !important;
+}
+.inpRecherche{
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 10px;
+  background-color: #25292d;
+  color: white;
+  box-shadow: 0px 0px 5px black;
+  font-family: 'Paytone One', sans-serif;
+  height: 40px;
+}
+.inpRecherche::placeholder{
+  color: white !important;
+}
+
+.cacher-filtres{
+  display: none;
+}
+.afficher-filtres{
+  display: block;
+}
+
+
+/* Fin Page Boutique  */
+/* ================================================ */
+/* Début Back Office */
+.dropMsg{
+  margin-left: -11px !important;
+}
+.img-prod-BackOffice{
+  width: 60px;
+}
+
+/* Fin Back Office */
+/* ================================================ */
+/* Début Page Favoris */
+.icon-favoris:hover{
+  color: rgb(59, 58, 58) !important;
+}
+/* Fin Page Favoris */
+/* Responsive Tablette  */
+
+@media (max-width: 962px) {
+.btnModalCo{
+  display: block;
+  cursor: pointer;
+  text-align: end;
+}
+.iconCoResponsive {
+  margin-left: 10px !important;
+  margin-right: 10px !important;
+} 
+.dropdown-menu[data-bs-popper] {
+  position: absolute !important;
+  top: 98% !important;
+  left: 51% !important;
+  margin-top: var(--bs-dropdown-spacer) !important;
+}
+
+.carousel {
+  display: none;
+}
+
+/* Card index */
+.card-title {
+  width: 100% !important;
+}
+
+/* Fin card Index */
+
+.Politique {
+  position: relative;
+  top: 1px;
+  left: -110px;
+}
+
+.logo-footer {
+  position: relative;
+  top: -40px;
+}
+
+/* Fiche Produits */
+.box-img-detail {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.img-detail-2 {
+  flex-direction: column !important;
+}
+.image-detailArticle{
+  width: 50%;
+  margin: auto;
+}
+.card-desc {
+  width: 90%;
+}
+
+.btn-desc {
+  margin-left: 20%;
+  margin-bottom: 25px;
+}
+
+.box-icon-nav {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.navbar-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 0 !important;
+  padding: 0 !important;
+}
+
+.bg-image {
+  width: 240px;
+}
+/* Avis client */
+.cardAvisResponsive{
+  text-align: center;
+}
+/* Pannier */
+
+.card-pannier-mobile {
+  flex-wrap: wrap;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.btn-ajout-card {
+  width: 100% !important;
+}
+
+.btn-payer {
+  width: 100%;
+
+}
+
+.box-bienvenue {
+  width: 90% !important;
+}
+
+.bg-card-section1 {
+  width: 100% !important;
+}
+
+.card-box-title-index {
+  width: 100% !important;
+}
+
+.box-avis-clients {
+  width: 100% !important;
+}
+
+.h-100 {
+  width: 100% !important;
+}
+.imagePanResponsive{
+  margin: auto;
+}
+.infoArticlePanResponsive{
+  text-align: center !important;
+}
+.BtnIPanResponsive{
+  margin-left: 43%;
+}
+/* ============ */
+ 
+/*Début Footer */
+.ResponsivePanier{
+  width: 100% !important;
+  margin: auto;
+}
+ footer{
+  text-align: center;
+ }
+ /*Fin Footer */
+
+ /* ============ */
+  
+ 
+ /* Début BACK OFFICE  */
+.supvhmobile-side{
+  min-height : 0 !important;
+}
+.icon-side{
+  text-align: center !important;
+}
+
+/* Affichage du Produit  */
+
+.box-detailtext {
+  border: 3px solid #757575;
+  filter: blur(60%);
+  box-shadow: 4px 5px 43px 11px #000, 0px 4px 4px 0px #757575 inset !important;
+  border-radius: 9px;
+  flex-wrap: wrap;
+  background-color: #000;
+}
+
+.image-card-equipe{
+  border: 3px solid #757575;
+  border-radius: 10px;
+  box-shadow: 4px 5px 43px 11px #000, 0px 4px 4px 0px #757575 inset !important;
+}
+
+.box-descProd-bOffice{
+  width: 100% !important;
+  margin: auto !important;
+}
+/* Fin BACK OFFICE  */
+}
+
+
+
+
